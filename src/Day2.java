@@ -7,7 +7,7 @@ import java.util.Scanner;
 // Scissors [C,X]
 
 public class Day2 {
-    static File file = new File("./data/day2");
+    static File file = new File("./data/day2_example");
 
     public static void main(String[] args) throws FileNotFoundException {
         // part one
@@ -65,8 +65,7 @@ public class Day2 {
 
     static int outcome2(char[] tab) {
         int elf = tab[0] - 65, need = (tab[1] - 88) * 3;
-        int score = 0;
-        int me = 0;
+        int score = 0, me = 0;
 
         for (int i = 0; i < 3; i++) {
             if (elf == i) {

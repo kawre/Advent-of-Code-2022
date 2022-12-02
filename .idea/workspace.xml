@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb277c98-56e9-4d68-bfa7-4a3016c6b174" name="Changes" comment="fix">
-      <change afterPath="$PROJECT_DIR$/data/day2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/day2_example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="eb277c98-56e9-4d68-bfa7-4a3016c6b174" name="Changes" comment="Day 2: Rock Paper Scissors">
+      <change beforePath="$PROJECT_DIR$/src/Day2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669932651547</updated>
       <workItem from="1669932653482" duration="9477000" />
-      <workItem from="1670000754789" duration="5550000" />
+      <workItem from="1670000754789" duration="5948000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1: Calorie Counting">
       <created>1669938972140</created>
@@ -117,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669942207751</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Day 2: Rock Paper Scissors">
+      <created>1670006373317</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670006373317</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +141,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 1: Calorie Counting" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="Day 2: Rock Paper Scissors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 2: Rock Paper Scissors" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

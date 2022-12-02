@@ -7,7 +7,7 @@ import java.util.Scanner;
 // Scissors [C,X]
 
 public class Day2 {
-    static File file = new File("./data/day2_example");
+    static File file = new File("./data/day2");
 
     public static void main(String[] args) throws FileNotFoundException {
         // part one

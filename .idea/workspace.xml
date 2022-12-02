@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb277c98-56e9-4d68-bfa7-4a3016c6b174" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advent of Code 2022.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inputs/day1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inputs/day1_example" afterDir="false" />
+    <list default="true" id="eb277c98-56e9-4d68-bfa7-4a3016c6b174" name="Changes" comment="Day 1: Calorie Counting">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputs/day1" beforeDir="false" afterPath="$PROJECT_DIR$/data/day1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputs/day1_example" beforeDir="false" afterPath="$PROJECT_DIR$/data/day1_example" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +34,42 @@
     "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.day1">
-    <configuration name="Elf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Elf" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kente\IdeaProjects\Advent of Code 2022\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Day1">
+    <configuration name="Day1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day1" />
       <module name="Advent of Code 2022" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day1" />
+    <configuration name="Day1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day1" />
+      <module name="Advent of Code 2022" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day1 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day1" />
+      <module name="Advent of Code 2022" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day1 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day1" />
+      <module name="Advent of Code 2022" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day1" />
       <module name="Advent of Code 2022" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -56,8 +77,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.day1" />
-        <item itemvalue="Application.Elf" />
+        <item itemvalue="Application.Day1" />
+        <item itemvalue="Application.Day1 (4)" />
+        <item itemvalue="Application.Day1 (3)" />
+        <item itemvalue="Application.Day1 (2)" />
+        <item itemvalue="Application.Day1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -69,8 +93,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669932651547</updated>
-      <workItem from="1669932653482" duration="6188000" />
+      <workItem from="1669932653482" duration="9286000" />
     </task>
+    <task id="LOCAL-00001" summary="Day 1: Calorie Counting">
+      <created>1669938972140</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669938972140</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +118,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day 1: Calorie Counting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 1: Calorie Counting" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

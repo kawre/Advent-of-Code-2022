@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb277c98-56e9-4d68-bfa7-4a3016c6b174" name="Changes" comment="Day 2: Rock Paper Scissors">
-      <change afterPath="$PROJECT_DIR$/data/day3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/day3_example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day3.java" afterDir="false" />
+    <list default="true" id="eb277c98-56e9-4d68-bfa7-4a3016c6b174" name="Changes" comment="append">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,8 +84,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Day3" />
-        <item itemvalue="Application.Day2" />
         <item itemvalue="Application.Day1" />
+        <item itemvalue="Application.Day2" />
         <item itemvalue="Application.Day1 (4)" />
         <item itemvalue="Application.Day1 (3)" />
       </list>
@@ -102,7 +101,8 @@
       <updated>1669932651547</updated>
       <workItem from="1669932653482" duration="9477000" />
       <workItem from="1670000754789" duration="6715000" />
-      <workItem from="1670086762037" duration="5217000" />
+      <workItem from="1670086762037" duration="5575000" />
+      <workItem from="1670102237545" duration="532000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1: Calorie Counting">
       <created>1669938972140</created>
@@ -139,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670006912902</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Day 3: Rucksack Reorganization">
+      <created>1670092322996</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670092322996</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +167,8 @@
     <MESSAGE value="Day 1: Calorie Counting" />
     <MESSAGE value="fix" />
     <MESSAGE value="Day 2: Rock Paper Scissors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 2: Rock Paper Scissors" />
+    <MESSAGE value="Day 3: Rucksack Reorganization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 3: Rucksack Reorganization" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

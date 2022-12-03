@@ -1,5 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
@@ -12,9 +13,9 @@ public class Day3 {
         int[] res = sumOfPriorities(new Scanner(file));
 
         int partOne = res[0];
-        int partTwo = res[1];
-
         System.out.println("part one: " + partOne);
+
+        int partTwo = res[1];
         System.out.println("part two: " + partTwo);
     }
 
@@ -28,9 +29,7 @@ public class Day3 {
             String line = scan.nextLine();
             splitRucksack(line);
 
-            String[] tmp = group;
-            group = new String[group.length + 1];
-            System.arraycopy(tmp, 0, group, 0, tmp.length);
+            group = Arrays.copyOf(group, group.length + 1);
             group[group.length - 1] = line;
 
             if (group.length >= 3) {
@@ -69,16 +68,15 @@ public class Day3 {
 
     static char[] findDuplicates(String[] rucksack) {
         Set<Character> set = new HashSet<>();
-        String left = rucksack[0];
-        String right = rucksack[1];
+        char[] left = rucksack[0].toCharArray();
+        char[] right = rucksack[1].toCharArray();
         Set<Character> duplicates = new HashSet<>();
 
-        for (char c : left.toCharArray()) {
+        for (char c : left) {
             set.add(c);
         }
 
-        for (int i = 0; i < right.length(); i++) {
-            char c = right.toCharArray()[i];
+        for (char c : right) {
             if (set.contains(c)) {
                 duplicates.add(c);
             }
@@ -99,13 +97,11 @@ public class Day3 {
         rucksack[0] = line.substring(0, line.length() / 2);
         rucksack[1] = line.substring(line.length() / 2);
 
-        insert(rucksack);
+        appendRucksack(rucksack);
     }
 
-    static void insert(String[] rucksack) {
-        String[][] tmp = rucksacks;
-        rucksacks = new String[tmp.length + 1][2];
-        System.arraycopy(tmp, 0, rucksacks, 0, tmp.length);
+    static void appendRucksack(String[] rucksack) {
+        rucksacks = Arrays.copyOf(rucksacks, rucksacks.length + 1);
         rucksacks[rucksacks.length - 1] = rucksack;
     }
 }

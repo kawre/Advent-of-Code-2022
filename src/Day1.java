@@ -72,18 +72,14 @@ public class Day1 {
     }
 
     // expand elves
-    static void insert(Elf elf) {
-        Elf[] tmp = elves;
-        elves = new Elf[tmp.length + 1];
-        System.arraycopy(tmp, 0, elves, 0, tmp.length);
+    static void append(Elf elf) {
+        elves = Arrays.copyOf(elves, elves.length + 1);
         elves[elves.length - 1] = elf;
     }
 
     // expand elf inventory
-    static void insert(int n) {
-        int[] tmp = elf_inventory;
-        elf_inventory = new int[tmp.length + 1];
-        System.arraycopy(tmp, 0, elf_inventory, 0, tmp.length);
+    static void append(int n) {
+        elf_inventory = Arrays.copyOf(elf_inventory, elf_inventory.length + 1);
         elf_inventory[elf_inventory.length - 1] = n;
     }
 
@@ -95,10 +91,10 @@ public class Day1 {
             String line = scan.nextLine();
 
             if (line.equals("")) {
-                insert(new Elf(elf_inventory));
+                append(new Elf(elf_inventory));
                 elf_inventory = new int[0];
             } else {
-                insert(Integer.parseInt(line));
+                append(Integer.parseInt(line));
             }
         } while (scan.hasNextLine());
     }

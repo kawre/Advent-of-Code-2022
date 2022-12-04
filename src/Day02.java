@@ -6,8 +6,8 @@ import java.util.Scanner;
 // Paper [B,Y]
 // Scissors [C,X]
 
-public class Day2 {
-    static File file = new File("./data/day2");
+public class Day02 {
+    static File file = new File("./data/day02");
 
     public static void main(String[] args) throws FileNotFoundException {
         // part one

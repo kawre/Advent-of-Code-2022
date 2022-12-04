@@ -5,8 +5,8 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class Day3 {
-    static File file = new File("./data/day3_example");
+public class Day03 {
+    static File file = new File("./data/day03");
     static String[][] rucksacks = new String[0][2];
 
     public static void main(String[] args) throws FileNotFoundException {

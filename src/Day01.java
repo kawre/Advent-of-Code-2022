@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class Day01 {
     static File file = new File("./data/day01");
     static int[] elf_inventory = new int[0];
-
     static Elf[] elves = new Elf[0];
 
     static class Elf {

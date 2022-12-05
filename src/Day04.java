@@ -17,13 +17,6 @@ public class Day04 {
         System.out.println("part two: " + partTwo);
     }
 
-    static void toPairs(Scanner scan) {
-        while (scan.hasNextLine()) {
-            String line = scan.nextLine();
-            appendPair(line.split(","));
-        }
-    }
-
     static int[] sumOfFullyContain() throws FileNotFoundException {
         toPairs(new Scanner(file));
         int sumOne = 0, sumTwo = 0;
@@ -36,7 +29,7 @@ public class Day04 {
             int elf02 = Integer.parseInt(elfOne[1]);
             int elf11 = Integer.parseInt(elfTwo[0]);
             int elf12 = Integer.parseInt(elfTwo[1]);
-//
+
             if (
                     (elf01 >= elf11 && elf02 <= elf12) ||
                             (elf01 <= elf11 && elf02 >= elf12)
@@ -51,6 +44,13 @@ public class Day04 {
         }
 
         return new int[]{sumOne, sumOne + sumTwo};
+    }
+
+    static void toPairs(Scanner scan) {
+        while (scan.hasNextLine()) {
+            String line = scan.nextLine();
+            appendPair(line.split(","));
+        }
     }
 
     static void appendPair(String[] pair) {

@@ -20,10 +20,8 @@ public class Day03 {
     }
 
     static int[] sumOfPriorities(Scanner scan) {
-        int sum = 0;
-        int sum2 = 0;
         String[] group = new String[0];
-
+        int sum = 0, sum2 = 0;
 
         do {
             String line = scan.nextLine();
@@ -38,7 +36,6 @@ public class Day03 {
             }
         } while (scan.hasNextLine());
 
-
         for (String[] rucksack : rucksacks) {
             sum += sumOfDuplicates(findDuplicates(rucksack));
         }
@@ -50,7 +47,6 @@ public class Day03 {
     static int findDuplicatesOfThree(String[] group) {
         char[] dup1 = findDuplicates(new String[]{group[0], group[1]});
         char[] dup2 = findDuplicates(new String[]{group[1], group[2]});
-
 
         return sumOfDuplicates(findDuplicates(new String[]{String.valueOf(dup1), String.valueOf(dup2)}));
     }
@@ -64,7 +60,6 @@ public class Day03 {
 
         return sum;
     }
-
 
     static char[] findDuplicates(String[] rucksack) {
         Set<Character> set = new HashSet<>();

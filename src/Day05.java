@@ -7,12 +7,11 @@ public class Day05 {
     static File file = new File("./data/day05");
     static char[][] stacks = new char[0][0];
 
-
     public static void main(String[] args) throws FileNotFoundException {
         readLines(new Scanner(file));
 
-        String partOne = cratesAtTheTop();
-        System.out.println(partOne);
+        String res = cratesAtTheTop();
+        System.out.println(res);
     }
 
     static String cratesAtTheTop() {
@@ -58,13 +57,13 @@ public class Day05 {
     }
 
     static void moveCrate(int from, int to) {
-        char tmp = stacks[from][0];
+        char payload = stacks[from][0];
         stacks[from] = Arrays.copyOfRange(stacks[from], 1, stacks[from].length);
 
-        char[] tmpArr = new char[stacks[to].length + 1];
-        tmpArr[0] = tmp;
-        System.arraycopy(stacks[to], 0, tmpArr, 1, stacks[to].length);
-        stacks[to] = tmpArr;
+        char[] tmp = new char[stacks[to].length + 1];
+        tmp[0] = payload;
+        System.arraycopy(stacks[to], 0, tmp, 1, stacks[to].length);
+        stacks[to] = tmp;
     }
 
     static void moveCrates(int amount, int from, int to) {

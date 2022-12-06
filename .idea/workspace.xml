@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb277c98-56e9-4d68-bfa7-4a3016c6b174" name="Changes" comment="Day 4: Camp Cleanup">
-      <change afterPath="$PROJECT_DIR$/data/day05" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day05.java" afterDir="false" />
+    <list default="true" id="eb277c98-56e9-4d68-bfa7-4a3016c6b174" name="Changes" comment="Day 5: Supply Stacks">
+      <change afterPath="$PROJECT_DIR$/data/day06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day05.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,21 +33,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/kente/IdeaProjects/Advent of Code 2022/src",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kente\IdeaProjects\Advent of Code 2022\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kente\IdeaProjects\Advent of Code 2022\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day05">
+  <component name="RunManager" selected="Application.Day06">
     <configuration name="Day01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day01" />
       <module name="Advent of Code 2022" />
@@ -66,13 +68,6 @@
     </configuration>
     <configuration name="Day01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day01" />
-      <module name="Advent of Code 2022" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day02" />
       <module name="Advent of Code 2022" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,13 +94,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day06" />
+      <module name="Advent of Code 2022" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day06" />
         <item itemvalue="Application.Day05" />
         <item itemvalue="Application.Day04" />
         <item itemvalue="Application.Day03" />
         <item itemvalue="Application.Day01" />
-        <item itemvalue="Application.Day02" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +127,8 @@
       <workItem from="1670150295203" duration="4235000" />
       <workItem from="1670155628542" duration="677000" />
       <workItem from="1670164001825" duration="59000" />
-      <workItem from="1670269653297" duration="7977000" />
+      <workItem from="1670269653297" duration="9092000" />
+      <workItem from="1670341019426" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1: Calorie Counting">
       <created>1669938972140</created>
@@ -183,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670153872838</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Day 5: Supply Stacks">
+      <created>1670277744543</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670277744543</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +217,8 @@
     <MESSAGE value="Day 3: Rucksack Reorganization" />
     <MESSAGE value="append" />
     <MESSAGE value="Day 4: Camp Cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 4: Camp Cleanup" />
+    <MESSAGE value="Day 5: Supply Stacks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 5: Supply Stacks" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

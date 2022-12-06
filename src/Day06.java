@@ -11,30 +11,26 @@ public class Day06 {
 
     public static void main(String[] args) throws FileNotFoundException {
         datastream = new Scanner(file).next();
-        lookForMarkers();
-    }
 
-    static void lookForMarkers() {
         size = 4;
-        int partOne = firstMarker(size - 1, size);
+        int partOne = findMarker(size, size);
         System.out.println(partOne);
 
         size = 14;
-        int partTwo = firstMarker(size - 1, size);
+        int partTwo = findMarker(size, size);
         System.out.println(partTwo);
     }
 
-    static int firstMarker(int i, int size) {
-        if (i > datastream.length()) {
+    static int findMarker(int i, int size) {
+        if (i > datastream.length())
             return -1;
-        }
 
-        String marker = datastream.substring(i - (size - 1), i + 1);
+        String marker = datastream.substring(i - size, i);
 
         Set<Character> set = new HashSet<>();
         for (char c : marker.toCharArray())
             set.add(c);
 
-        return set.size() == size ? i + 1 : firstMarker(i + 1, size);
+        return set.size() == size ? i : findMarker(i + 1, size);
     }
 }

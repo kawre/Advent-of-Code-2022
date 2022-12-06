@@ -7,6 +7,7 @@ import java.util.Set;
 public class Day06 {
     static File file = new File("./data/day06");
     static String datastream;
+    static int size;
 
     public static void main(String[] args) throws FileNotFoundException {
         datastream = new Scanner(file).next();
@@ -14,36 +15,26 @@ public class Day06 {
     }
 
     static void lookForMarkers() {
-        int partOne = -1;
-        for (int i = 3; i < datastream.length(); i++) {
-            if (isMarker(i, 4)) {
-                partOne = i + 1;
-                break;
-            }
-        }
+        size = 4;
+        int partOne = firstMarker(size - 1, size);
         System.out.println(partOne);
 
-
-        int partTwo = -1;
-        for (int i = 13; i < datastream.length(); i++) {
-            if (isMarker(i, 14)) {
-                partTwo = i + 1;
-                break;
-            }
-        }
-
+        size = 14;
+        int partTwo = firstMarker(size - 1, size);
         System.out.println(partTwo);
     }
 
-    static boolean isMarker(int i, int size) {
-        if (i <= size - 2) return false;
+    static int firstMarker(int i, int size) {
+        if (i > datastream.length()) {
+            return -1;
+        }
 
-        Set<Character> set = new HashSet<>();
         String marker = datastream.substring(i - (size - 1), i + 1);
 
+        Set<Character> set = new HashSet<>();
         for (char c : marker.toCharArray())
             set.add(c);
 
-        return set.size() == size;
+        return set.size() == size ? i + 1 : firstMarker(i + 1, size);
     }
 }

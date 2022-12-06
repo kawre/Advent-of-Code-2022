@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb277c98-56e9-4d68-bfa7-4a3016c6b174" name="Changes" comment="Day 5: Supply Stacks">
-      <change afterPath="$PROJECT_DIR$/data/day06" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day06.java" afterDir="false" />
+    <list default="true" id="eb277c98-56e9-4d68-bfa7-4a3016c6b174" name="Changes" comment="Day 6: Tuning Trouble">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/day06" beforeDir="false" afterPath="$PROJECT_DIR$/data/day06" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day06.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/kente/IdeaProjects/Advent of Code 2022/src",
-    "settings.editor.selected.configurable": "inlay.hints"
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -128,7 +135,8 @@
       <workItem from="1670155628542" duration="677000" />
       <workItem from="1670164001825" duration="59000" />
       <workItem from="1670269653297" duration="9092000" />
-      <workItem from="1670341019426" duration="313000" />
+      <workItem from="1670341019426" duration="603000" />
+      <workItem from="1670360084710" duration="970000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1: Calorie Counting">
       <created>1669938972140</created>
@@ -193,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670277744543</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Day 6: Tuning Trouble">
+      <created>1670341598429</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670341598429</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +233,8 @@
     <MESSAGE value="append" />
     <MESSAGE value="Day 4: Camp Cleanup" />
     <MESSAGE value="Day 5: Supply Stacks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 5: Supply Stacks" />
+    <MESSAGE value="Day 6: Tuning Trouble" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 6: Tuning Trouble" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

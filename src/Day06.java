@@ -12,16 +12,14 @@ public class Day06 {
     public static void main(String[] args) throws FileNotFoundException {
         datastream = new Scanner(file).next();
 
-        size = 4;
-        int partOne = findMarker(size, size);
+        int partOne = findMarker(size = 4);
         System.out.println(partOne);
 
-        size = 14;
-        int partTwo = findMarker(size, size);
+        int partTwo = findMarker(size = 14);
         System.out.println(partTwo);
     }
 
-    static int findMarker(int i, int size) {
+    static int findMarker(int i) {
         if (i > datastream.length())
             return -1;
 
@@ -31,6 +29,6 @@ public class Day06 {
         for (char c : marker.toCharArray())
             set.add(c);
 
-        return set.size() == size ? i : findMarker(i + 1, size);
+        return set.size() == size ? i : findMarker(++i);
     }
 }

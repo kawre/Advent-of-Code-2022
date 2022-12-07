@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb277c98-56e9-4d68-bfa7-4a3016c6b174" name="Changes" comment="Day 6: Tuning Trouble">
+      <change afterPath="$PROJECT_DIR$/data/day07" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/day06" beforeDir="false" afterPath="$PROJECT_DIR$/data/day06" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Day06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day06.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +27,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Day05.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,12 +48,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
     "last_opened_file_path": "C:/Users/kente/IdeaProjects/Advent of Code 2022/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.rainbow.brackets",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -58,7 +69,7 @@
       <recent name="C:\Users\kente\IdeaProjects\Advent of Code 2022\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day06">
+  <component name="RunManager" selected="Application.Day07">
     <configuration name="Day01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day01" />
       <module name="Advent of Code 2022" />
@@ -66,43 +77,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day01" />
+    <configuration name="Day07 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day07" />
       <module name="Advent of Code 2022" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day01" />
+    <configuration name="Day07 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day07" />
       <module name="Advent of Code 2022" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day03" />
+    <configuration name="Day07 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day07" />
       <module name="Advent of Code 2022" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day04" />
+    <configuration name="Day07 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day07" />
       <module name="Advent of Code 2022" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day05" />
-      <module name="Advent of Code 2022" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day06" />
+    <configuration name="Day07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day07" />
       <module name="Advent of Code 2022" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Day06" />
-        <item itemvalue="Application.Day04" />
-        <item itemvalue="Application.Day05" />
-        <item itemvalue="Application.Day03" />
-        <item itemvalue="Application.Day01" />
+        <item itemvalue="Application.Day07" />
+        <item itemvalue="Application.Day07 (1)" />
+        <item itemvalue="Application.Day07 (5)" />
+        <item itemvalue="Application.Day07 (3)" />
+        <item itemvalue="Application.Day07 (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +141,18 @@
       <workItem from="1670269653297" duration="9092000" />
       <workItem from="1670341019426" duration="603000" />
       <workItem from="1670360084710" duration="3241000" />
-      <workItem from="1670363389163" duration="240000" />
+      <workItem from="1670363389163" duration="1734000" />
+      <workItem from="1670365354058" duration="196000" />
+      <workItem from="1670365577534" duration="122000" />
+      <workItem from="1670365717133" duration="337000" />
+      <workItem from="1670366074451" duration="280000" />
+      <workItem from="1670366371280" duration="88000" />
+      <workItem from="1670366496519" duration="19000" />
+      <workItem from="1670367086652" duration="104000" />
+      <workItem from="1670367208534" duration="182000" />
+      <workItem from="1670367421657" duration="297000" />
+      <workItem from="1670369038584" duration="333000" />
+      <workItem from="1670406194001" duration="23319000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1: Calorie Counting">
       <created>1669938972140</created>
@@ -216,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670361142122</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Day 6: Tuning Trouble">
+      <created>1670363735888</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670363735888</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,8 +266,21 @@
     <MESSAGE value="Day 6: Tuning Trouble" />
     <option name="LAST_COMMIT_MESSAGE" value="Day 6: Tuning Trouble" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Advent_of_Code_2022$Day06.ic" NAME="Day06 Coverage Results" MODIFIED="1670367366111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

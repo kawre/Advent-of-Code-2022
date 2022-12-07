@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb277c98-56e9-4d68-bfa7-4a3016c6b174" name="Changes" comment="Day 6: Tuning Trouble">
-      <change afterPath="$PROJECT_DIR$/data/day07" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xd.java" afterDir="false" />
+    <list default="true" id="eb277c98-56e9-4d68-bfa7-4a3016c6b174" name="Changes" comment="Day 7: Part One">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/day07" beforeDir="false" afterPath="$PROJECT_DIR$/data/day07" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day07.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day07 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Day07 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day07" />
       <module name="Advent of Code 2022" />
       <method v="2">
@@ -116,9 +112,9 @@
       <list>
         <item itemvalue="Application.Day07" />
         <item itemvalue="Application.Day07 (1)" />
-        <item itemvalue="Application.Day07 (5)" />
-        <item itemvalue="Application.Day07 (3)" />
         <item itemvalue="Application.Day07 (4)" />
+        <item itemvalue="Application.Day07 (2)" />
+        <item itemvalue="Application.Day07 (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +148,7 @@
       <workItem from="1670367208534" duration="182000" />
       <workItem from="1670367421657" duration="297000" />
       <workItem from="1670369038584" duration="333000" />
-      <workItem from="1670406194001" duration="23319000" />
+      <workItem from="1670406194001" duration="34119000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1: Calorie Counting">
       <created>1669938972140</created>
@@ -238,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670363735888</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Day 7: Part One">
+      <created>1670431302689</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670431302689</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +267,8 @@
     <MESSAGE value="Day 4: Camp Cleanup" />
     <MESSAGE value="Day 5: Supply Stacks" />
     <MESSAGE value="Day 6: Tuning Trouble" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 6: Tuning Trouble" />
+    <MESSAGE value="Day 7: Part One" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 7: Part One" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -2,7 +2,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
-
 public class Day07 {
     static File file = new File("./data/day07");
     static Directory head = new Directory("/", null);
@@ -37,12 +36,32 @@ public class Day07 {
             return null;
         }
 
+        public void addFile(String[] parts) {
+            size += Integer.parseInt(parts[0]);
+            files.add(parts[1]);
+        }
+
         public int totalSize() {
             int sum = size;
             for (Directory dir : children)
                 sum += dir.totalSize();
 
             return sum;
+        }
+
+        public int findToDelete(int unused, int min) {
+            int required = 30000000 - unused;
+            int size = totalSize();
+
+            if (size >= required) {
+                min = Math.min(size, min);
+            }
+
+            for (Directory dir : children) {
+                min = dir.findToDelete(unused, min);
+            }
+
+            return min;
         }
 
         public int sumOfTotalSizesAtMost100000() {
@@ -54,16 +73,11 @@ public class Day07 {
 
             return sum + (totalSize <= 100000 ? totalSize : 0);
         }
-
-        public void addFile(String[] parts) {
-            size += Integer.parseInt(parts[0]);
-            files.add(parts[1]);
-        }
     }
 
     public static void main(String[] args) throws FileNotFoundException {
         readLine(new Scanner(file));
-        System.out.println(head.sumOfTotalSizesAtMost100000());
+        System.out.println(head.findToDelete(70000000 - head.totalSize(), Integer.MAX_VALUE));
     }
 
     static void readLine(Scanner scan) {
@@ -86,7 +100,6 @@ public class Day07 {
             } else {
                 dir.addFile(parts);
             }
-
         }
 
         readLine(scan);

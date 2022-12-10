@@ -55,7 +55,7 @@ public class Day09 {
             Point tail = snake.get(i);
 
             if (head.distance(tail) > Math.sqrt(2)) {
-                Double minDist = Double.MAX_VALUE;
+                double minDist = Double.MAX_VALUE;
                 Point closest = head;
                 Point tmp;
 
